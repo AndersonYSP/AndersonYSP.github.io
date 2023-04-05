@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(imagenes/Fondo.png.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    
+
+}
+
+
+.contenedor {
+    width: 1200px;
+    height: 600px;
+    margin: 50px auto;
+    display: flex;
+    
+}
+
+.loginimg {
+    padding: 50px;
+   
+}
+
+.login {
+    background-image: url(imagenes/Fondo.png.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    height: 80%;
+    margin: 50px auto;
+    background-position: center;
+    padding: 70px 30px;
+    position: relative;
+    box-sizing: border-box;
+    border: 1.5px solid black;
+    
+}
+
+.login::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-color: rgba(2, 103, 144, .2);
+    border-radius: 10px;
+}
+
+.login .logo {
+    width: 50%;
+    border-radius: 50%;
+    position: relative;
+    top: -160px;
+   
+}
+
+.login h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -50%;
+    line-height: 50px;
+    font-family: 'krub', sans-serif;
+}
+
+.login label {
+    margin: 0;
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    font-family: 'krub', sans-serif;
+
+}
+
+.login input{
+    position: relative;
+    width: 100%;
+    margin: 25px auto;
+    line-height: 20px;
+}
+
+.login input[type="text"], 
+.login input[type="password"] {
+    position: relative;
+    
+    border: 1px solid black;
+    width: 300px;
+    height: 35px;
+    font-size: 16px;
+    text-align: center;
+    
+
+}
+
+
+.login .botoniniciar[type="submit"] {
+    position: relative;
+    
+    outline: none;
+    height: 35px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+   
+    border: 1px solid black;
+}
+
+.login .botoniniciar:hover {
+    cursor: pointer;
+    color: yellowgreen;
+    box-shadow: 0 0 10px yellowgreen;
+}
+
+.login a {
+    text-decoration: none;
+    font-family: 'krub', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+
+
+
+
+
